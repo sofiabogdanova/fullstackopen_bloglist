@@ -103,3 +103,6 @@ dist
 # TernJS port file
 .tern-port
 /.idea/workspace.xml
+/.idea/fullstackopen_bloglist.iml
+/.idea/vcs.xml
+/.idea/modules.xml
