@@ -1,0 +1,32 @@
+{
+  "name": "fullstackopen_bloglist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sofiabogdanova/fullstackopen_bloglist.git"
+  },
+  "author": "Sofia Bogdanova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sofiabogdanova/fullstackopen_bloglist/issues"
+  },
+  "homepage": "https://github.com/sofiabogdanova/fullstackopen_bloglist#readme",
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "mongoose-unique-validator": "^2.0.3",
+    "morgan": "^1.10.0"
+  }
+}
